@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Build For Centos:
+  Build_For_Centos:
     name: OS Docker Centos INIT
     runs-on: ubuntu-latest
     steps:
@@ -38,7 +38,7 @@ jobs:
           cache-from: type=registry,ref=xrsec/osinit:centos.cache
           cache-to: type=registry,ref=xrsec/osinit:centos.cache,mode=max
 
-  Build For Ubuntu:
+  Build_For_Ubuntu:
     name: OS Docker Ubuntu INIT
     runs-on: ubuntu-latest
     steps:
