@@ -1,6 +1,8 @@
 name: OS Docker INIT
   
 on:
+  schedule:
+    - cron:  '0 0 * * MON'
   watch:
     types: [started]
   workflow_dispatch:
