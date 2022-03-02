@@ -1,9 +1,9 @@
 FROM ubuntu:latest
 LABEL maintainer="xrsec"
 LABEL mail="troy@zygd.site"
-LABEL Github="https://github.com/XRSec/AWVS14-Update"
-LABEL org.opencontainers.image.source="https://github.com/XRSec/AWVS14-Update"
-LABEL org.opencontainers.image.title="AWVS14-Update"
+LABEL Github="https://github.com/XRSec/OS_Docker_INIT"
+LABEL org.opencontainers.image.source="https://github.com/XRSec/OS_Docker_INIT"
+LABEL org.opencontainers.image.title="OS_Docker_INIT"
 
 RUN apt update -y \
     && apt upgrade -y \
